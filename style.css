@@ -26,6 +26,9 @@
     height: 30px;
     border-radius: 50%;
     background-image: url(./assets/icons/format-quote-open.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
 }
 .quote.green{
     background-color:green;
