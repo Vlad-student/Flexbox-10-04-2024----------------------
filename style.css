@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+.container-feedback{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(74, 135, 188);
+}
+.feedback{
+    flex-basis: 250px;
+    margin: 8px;
+    padding: 25px;
+    background-color:white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.75);
+
+    display: flex;
+    flex-direction: column;
+}
+.feedback-text{
+    flex-grow: 1;
+}
+.quote{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: url(./assets/icons/format-quote-open.svg);
+}
+.quote.green{
+    background-color:green;
+}
+.green{
+    color: green;
+}
+.quote.pink{
+    background-color:pink;
+}
+.pink{
+    color:pink;
+}
+.autor,
+.work,
+.company{
+    text-align: right;
+} 
+.company{
+    font-weight: bolder;
+}
+.work{
+    margin: 0;
+}
+.autor{
+    margin-bottom: 0;
+}
