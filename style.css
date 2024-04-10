@@ -43,13 +43,16 @@
 .work,
 .company{
     text-align: right;
+    font-family: sans-serif;
 } 
 .company{
     font-weight: bolder;
+    margin-bottom: 0;
 }
 .work{
     margin: 0;
 }
 .autor{
     margin-bottom: 0;
+    text-transform: capitalize;
 }
